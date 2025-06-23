@@ -1,3 +1,4 @@
+export const runtime = "nodejs";
 
 import NextAuth, { type Session, type User } from "next-auth";
 import GoogleProvider from "next-auth/providers/google";
