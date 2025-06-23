@@ -2,7 +2,6 @@
 
 import { db } from "@/db";
 import { forms, questions as dbQuestions, fieldOptions } from "@/db/schema";
-import { auth } from "@/auth";
 import { InferInsertModel, eq } from "drizzle-orm";
 import { v4 as uuidv4 } from "uuid";
 import { getCurrentForm } from "./getUserForms";
